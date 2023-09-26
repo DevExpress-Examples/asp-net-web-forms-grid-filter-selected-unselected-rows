@@ -9,7 +9,7 @@
 **[[Run Online]](https://codecentral.devexpress.com/e3085/)**
 <!-- run online end -->
 
-The following example demonstrate how to filter grid rows based on their selection state.
+The following example demonstrates how to filter grid rows based on their selection state.
 
 ## Overview
 
