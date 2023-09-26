@@ -3,21 +3,23 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/E3085)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-<!-- default file list -->
-*Files to look at*:
 
-* [Default.aspx](./CS/WebSite/Default.aspx) (VB: [Default.aspx](./VB/WebSite/Default.aspx))
-* [Default.aspx.cs](./CS/WebSite/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/WebSite/Default.aspx.vb))
-<!-- default file list end -->
-# How to filter selected / unselected ASPxGridView's DataRows
+# GridView for ASP.NET Web Forms - How to filter selected or unselected rows
 <!-- run online -->
 **[[Run Online]](https://codecentral.devexpress.com/e3085/)**
 <!-- run online end -->
 
+The following example demonstrate how to filter grid rows based on their selection state.
 
-<p>The example demonstrate how to filter ASPxGridView's DataRows based on the Selection state. The outside ASPxComboBox editor performs a custom ASPxGridView callback and determines the filtering mode. ASPxGridView's FilterExpression is combined via the InOperator / GroupOperator objects - special types for data filtering.</p><p><strong>See Also:<br />
-</strong><a href="http://documentation.devexpress.com/#CoreLibraries/DevExpressDataFiltering"><u>DevExpress.Data.Filtering Namespace</u></a></p>
+## Overview
 
-<br/>
+The outside [ASPxComboBox](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxComboBox) editor performs a grid's custom callback and determines the filter mode. The grid's filter expression is combined via the InOperator / GroupOperator objects - special types for data filtering.
 
+## Files to Review
 
+* [Default.aspx](./CS/WebSite/Default.aspx) (VB: [Default.aspx](./VB/WebSite/Default.aspx))
+* [Default.aspx.cs](./CS/WebSite/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/WebSite/Default.aspx.vb))
+
+## Documentation
+
+* [DevExpress.Data.Filtering Namespace](https://docs.devexpress.com/CoreLibraries/DevExpress.Data.Filtering)
