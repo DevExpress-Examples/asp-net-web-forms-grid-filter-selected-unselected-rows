@@ -5,9 +5,6 @@
 <!-- default badges end -->
 
 # GridView for ASP.NET Web Forms - How to filter selected or unselected rows
-<!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/128540248/)**
-<!-- run online end -->
 
 The following example demonstrates how to filter grid rows based on their selection state.
 
